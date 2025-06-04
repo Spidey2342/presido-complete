@@ -1,14 +1,22 @@
- //hamburger edits
+//hamburger edits
  
  function Showsidebar() {
-            const sidebar = document.querySelector('.sidebar')
-            sidebar.style.display = 'flex'
-        }
+    const sidebar = document.querySelector('.sidebar');
+    const links = sidebar.querySelectorAll('a');
+
+    sidebar.style.display = 'flex';
+
+    // Add event listener to each link to hide sidebar on click
+    links.forEach(link => {
+        link.addEventListener('click', Hidesidebar);
+    });
+}
         function Hidesidebar() {
             const sidebar = document.querySelector('.sidebar')
             sidebar.style.display = 'none'
 
         }
+        
 
 //idk animation
 const scrollers = document.querySelectorAll(".scroller");
