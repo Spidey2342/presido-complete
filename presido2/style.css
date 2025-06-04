@@ -365,6 +365,7 @@ body {
     height: 340px;
     width: 400px;
     overflow: hidden;
+    border-radius: 20px;
 }
 
 .about-image video {
@@ -429,8 +430,6 @@ body {
 .text-ex h4 {
     font-size: 2em;
     font-weight: 700;
-    text-decoration: underline;
-    text-decoration-color: rgb(163, 2, 2);
 
 }
 
@@ -668,8 +667,6 @@ span {
         font-size: 1.6em;
         text-align: center;
         margin-bottom: 10px;
-        text-decoration: underline;
-        text-decoration-color: rgb(163, 2, 2);
     }
 
     .text p {
