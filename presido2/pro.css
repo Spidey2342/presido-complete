@@ -173,6 +173,21 @@ header {
   font-size: 2.3em;
   margin-bottom: 100px;
 }
+.gallery1{
+  height: auto;
+  padding: 10vh 0 0 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  flex-direction: column;
+}
+.gallery1 h3{
+  color: white;
+  font-weight: 700;
+  font-size: 2.3em;
+  margin-bottom: 100px;
+}
 
 .griddd {
     display: grid;
@@ -308,4 +323,10 @@ header {
   text-align: center;
 
 }
+}
+
+@media screen and (max-width:470px) {
+  .gallery{
+      padding: 10vh 0 240vh 0;
+    }
 }
