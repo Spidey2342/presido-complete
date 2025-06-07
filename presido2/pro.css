@@ -327,6 +327,6 @@ header {
 
 @media screen and (max-width:470px) {
   .gallery{
-      padding: 10vh 0 240vh 0;
+      padding: 10vh 0 200vh 0;
     }
 }
